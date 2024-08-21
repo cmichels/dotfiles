@@ -1,0 +1,17 @@
+[gpg]
+	program = /opt/homebrew/bin/gpg
+[user]
+	signingkey = 817793E7
+	name = Chris Michels
+	email = michelsc@starktechgroup.com
+[commit]
+	gpgsign = true
+[pull]
+	rebae = false
+	rebase = false
+[merge]
+	tool = deltawalker
+[diff]
+  tool = deltawalker
+[mergetool "deltawalker"]
+	cmd = /Applications/DeltaWalker.app/Contents/Resources/git-merge
